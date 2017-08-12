@@ -52,7 +52,7 @@ require_once(APP_FUNCTIONS_DIRECTORY . '/functions.php');
 // START OUTPUT BUFFERING
 ob_start();
 
-App()->getDefaultView()->renderOutput();
+echo App();
 
 // END OUTPUT BUFFERING AND FLUSH CONTENTS TO STD_OUT
-ob_end_flush();-----
+ob_end_flush();--------
